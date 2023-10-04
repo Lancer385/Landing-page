@@ -6,9 +6,9 @@ body {
     font-family: "Roboto";
 }
 
-/* applying fonts color, size and weight. just leaving it on the top so i apply them for other sections */
+/* applying fonts color, size and weight. just leaving it on the top so i apply them for other sections(that was stupid) */
 
-.header {
+.section {
     font-size: 28px;
 }
 
@@ -18,7 +18,7 @@ body {
     margin: 0;
 }
 
-.text h1 , .header {
+.text h1 , .section {
     color: #F9FAF8;
 }
 
@@ -28,7 +28,7 @@ ul, .text p {
     font-weight: 500;
 }
 
-.section1 .title {
+.section1 .title, .author {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -39,9 +39,16 @@ ul, .text p {
     font-weight: 500;
 }
 
-/* the header and first section */
+.subsiction2 .quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #767778;
+}
 
-.header {
+
+/* the sec.section and first section */
+
+.section {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -50,15 +57,16 @@ ul, .text p {
     padding-bottom: 100px;
 }
 
-.subsiction1 {
+.subsiction {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -75,7 +83,7 @@ ul {
     gap: 0;
 }
 
-.subsiction1 img {
+.subsiction img {
     width: 500px;
     height: 250px;
 }
@@ -108,7 +116,7 @@ ul {
     gap: 40px;
 }
 
-.subsiction2 {
+.subsiction1 {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -129,4 +137,27 @@ ul {
     border-color: #3882f6;
     width: 150px;
     height: 150px;
+}
+
+
+/* third section */
+
+.section2 {
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+
+.subsiction2 {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
 }
