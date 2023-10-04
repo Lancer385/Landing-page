@@ -22,12 +22,24 @@ body {
     color: #F9FAF8;
 }
 
-ul , .text p {
+ul, .text p {
     font-size: 18px;
-    color: #c9cbce;
+    color: #e5e7eb;
+    font-weight: 500;
 }
 
-/* the header */
+.section1 .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info div {
+    color: #767778;
+    font-weight: 500;
+}
+
+/* the header and first section */
 
 .header {
     background-color: #1f2937;
@@ -86,3 +98,35 @@ ul {
     border: none;
 }
 
+/* second section */
+
+.section1 {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.subsiction2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.info img {
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #3882f6;
+    width: 150px;
+    height: 150px;
+}
