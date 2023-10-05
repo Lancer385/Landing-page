@@ -18,11 +18,11 @@ body {
     margin: 0;
 }
 
-.text h1 , .section {
+.text h1 , .section, .action h2 {
     color: #F9FAF8;
 }
 
-ul, .text p {
+ul, .text p, .action p {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 500;
@@ -93,14 +93,14 @@ ul {
 } 
 
 
-.text button {
+button {
     width: 120px;
-    height: 35px;
+    height: 36px;
     text-align: center;
     border-radius: 10px;
     color: #F9FAF8;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #3882f6;
     cursor: pointer;
     border: none;
@@ -161,3 +161,37 @@ ul {
 .author {
     align-self: flex-end;
 }
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.subsiction3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.subsiction3 button {
+    border: inherit;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.action p {
+    margin-top: 0;
+}
+
+.action h2 {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
