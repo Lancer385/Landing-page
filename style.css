@@ -4,6 +4,8 @@
 body {
     margin: 0;
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
 
 /* applying fonts color, size and weight. just leaving it on the top so i apply them for other sections(that was stupid) */
@@ -46,7 +48,7 @@ ul, .text p, .action p {
 }
 
 
-/* the sec.section and first section */
+/* the header and first section */
 
 .section {
     background-color: #1f2937;
@@ -58,6 +60,7 @@ ul, .text p, .action p {
 }
 
 .subsiction {
+    flex: auto;
     width: 70%;
     display: flex;
     align-items: center;
@@ -86,6 +89,7 @@ ul {
 .subsiction img {
     width: 500px;
     height: 250px;
+    border-style: solid;
 }
 
 .text p {
@@ -163,6 +167,8 @@ button {
 }
 
 
+/* fourth section */
+
 .section3 {
     display: flex;
     justify-content: center;
@@ -195,3 +201,12 @@ button {
     margin-top: 7px;
 }
 
+
+/* the footer */
+
+.footer {
+    padding: 40px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+}
